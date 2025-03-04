@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "universities.json", "use": "@vercel/static" }
+    ],
+    "routes": [
+      { "src": "/.*", "dest": "/universities.json" }
+    ]
+  }
